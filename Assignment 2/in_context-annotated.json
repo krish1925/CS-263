@@ -1,0 +1,31 @@
+[
+    {
+        "INPUT_TEXT": "COVID-19 Deaths Continue to Drop in France",
+        "EVENT_NAME": "death",
+        "EVENT_TRIGGER": "Deaths",
+        "Arguments":{
+            "Cause": "COVID-19",
+            "Location": "France"
+        }
+    },
+    {
+        "INPUT_TEXT": "Kerala reports 16 new COVID-19 cases; 4 people travelled from Tamil Nadu, 2 fromMumbai",
+        "EVENT_NAME": "infect",
+        "EVENT_TRIGGER": "cases",
+        "Arguments":{
+            "Person": "4 people",
+            "Agent": "COVID-19"
+            
+        }
+
+    },
+    {
+        "INPUT_TEXT": "These are the places Covid-19 spreads in the real worl  Workplaces Restaurants Churches Parties  It doesn't really spread here:  Public parks Beaches Quick trips to the grocery store",
+        "EVENT_NAME": "spread",
+        "EVENT_TRIGGER": "spreads",
+        "Arguments":{
+            "Location": "Workplaces Restaurants Churches Parties",
+            "Agent": "COVID-19"
+        }
+    }
+]

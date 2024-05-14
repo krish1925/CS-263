@@ -1,0 +1,115 @@
+[
+    {
+        "INPUT_TEXT": " This will count as a Covid death...... without covid Cornelius would still be in prison, so Covid is the cause of death for the 21 year old woman.",
+        "EVENT_NAME": "death",
+        "EVENT_TRIGGER" : "death",
+        "ARGUMENT": {
+            "Patient": "21 year old woman",
+            "Cause": "Covid"
+        }
+    },
+    {
+        "INPUT_TEXT": "Government extends lockdown till May 24 - COVID-19 - (url) #(Notice) #(Nigeria) #(Na ija) #(News)",
+        "EVENT_NAME": "control",
+        "EVENT_TRIGGER" : "lockdown",
+        "ARGUMENT":{
+            "Target": "Covid-19",
+            "Action": "lockdown",
+            "Agent": "government"
+        }
+        
+    },
+    {
+        "INPUT_TEXT": " Moncef Slaoui: I have very recently seen early data from a clinical trial with a coronavirus vaccine and these data made me feel even more confident that we will be able to deliver a few hundred million doses of vaccine by the end of 2020 &lt;-note Slaoui on Moderna, Lonza boards",
+        "EVENT_NAME": "prevent",
+        "EVENT_TRIGGER" : "vaccine",
+        "ARGUMENT": {
+            "Agent": "vaccine",
+            "Target": "coronavirus"
+        }
+    },
+    {
+        "INPUT_TEXT": "Coronavirus has killed more than 85,000 people. Some 36 million workers have lost their jobs. Good thing President Trump is looking out for the real victims of the coronavirus: fossil fuel executives. (url)",
+        "EVENT_NAME": "death",
+        "EVENT_TRIGGER" : "killed",
+        "ARGUMENT": {
+            "Patient": "85,000 people",
+            "Cause": "Coronavirus"
+        }
+    },
+    {
+        "INPUT_TEXT": "288 new cases of COVID-19 have just been reported in Nigeria.  To get up to date report + state by state breakdown of cases, at any time, simply click the link below:   (url) (url)",
+        "EVENT_NAME": "spread",
+        "EVENT_TRIGGER" : "cases",
+        "ARGUMENT":{
+            "Location": "Nigeria", 
+            "Agent": "Covid"
+        }
+    },
+    {
+        "INPUT_TEXT": "COVID-19 Doctor: Do you have any questions?  Me: After two months, I still cant exert myself without getting a congested chest for five days. Id like to know if this is just a slow recovery or long-term damage so I can plan my life accordingly.  Doctor: We still dont know.",
+        "EVENT_NAME": "symptom",
+        "EVENT_TRIGGER" : "congested",
+        "ARGUMENT":{
+            "Duration":"5 days",
+            "Person": "I"
+        }
+    },
+    {
+        "INPUT_TEXT": "As of tonight:    More than 87,000 people have died nationwide from COVID-19. More than 300,000 people have recovered.    More of the country is reopening, or getting ready to do so.    More federal relief is moving through Congress.  (user) reports. (url)",
+        "EVENT_NAME": "cure",
+        "EVENT_TRIGGER" : "recovered",
+        "ARGUMENT":{
+            "Agent": "federal relief",
+            "Patient": "300,000 people"
+        }
+    },
+    {
+        "INPUT_TEXT": "COVID-19 Doctor: Do you have any questions?  Me: After two months, I still cant exert myself without getting a congested chest for five days. Id like to know if this is just a slow recovery or long-term damage so I can plan my life accordingly.  Doctor: We still dont know.",
+        "EVENT_NAME": "flag",
+        "EVENT_TRIGGER" : "conjested",
+        "ARGUMENT":{
+            
+        }
+    },
+    {
+        "INPUT_TEXT": "So many critics say (user) didnt act to save lives from #(COVID). Well... initial projections from experts, &amp; #(fake news) said (url) million would die. To date 88,507 people have died. Seems to me the President saved 2,111,493.",
+        "EVENT_NAME": "death",
+        "EVENT_TRIGGER" : "died",
+        "ARGUMENT":{
+            "Patient": "88,507 people",
+            "Time": "To date",
+            "Cause":"COVID"
+        }
+
+    },
+    {
+        "INPUT_TEXT": "I lost both my aunt and uncle to covid-19 this week, so pardon me if I don't buy into your conspiracy theories that this is a hoax, or political strategy, that it's 'over' or any other stupid ideas you have going on in your head.",
+        "EVENT_NAME": "death",
+        "EVENT_TRIGGER" : "lost",
+        "ARGUMENT":{
+            "Patient":"aunt and uncle",
+            "Cause":"covid-19",
+            "Time": "this week"
+
+
+        }
+    },
+    {
+        "INPUT_TEXT": "Trump's pandemic response has been literally the single worst out of every advanced country in the world. It will be studied for generations as an example of what not to do.",
+        "EVENT_NAME": "control",
+        "EVENT_TRIGGER" : "response",
+        "ARGUMENT":{
+            "Agent": "Trump"
+        }
+    },
+    {
+        "INPUT_TEXT": "CORONAVIRUS UPDATE #(COVID) News plus global infection and death figures by country.  GLOBAL: Infections: 4,628,561 Deaths: 308,645 Recoveries: 1,758,080   (url)  (url)  RT #(Spread The Word)",
+        "EVENT_NAME": "death",
+        "EVENT_TRIGGER" : "Deaths",
+        "ARGUMENT": {
+            "Patient": "308,645",
+            "Cause": "COVID"
+        }
+    }
+]

@@ -1,0 +1,272 @@
+[
+    {
+        "EVENT_NAME":"infect",
+        "ARGUMENT_ROLE":"Agent",
+        "ROLE_DESCRIPTION": "The entity that is causing the disease, the pathogen",
+        "EXAMPLE_SENTENCE": [
+           "I caught the [virus] from my friend.",
+            "The [bacteria] infected the patient.",
+            "the [pathogen] is very contagious."
+        ]
+    },
+    {
+        "EVENT_NAME":"infect",
+        "ARGUMENT_ROLE":"Person",
+        "ROLE_DESCRIPTION": "The entity being infected by the disease or pathogen",
+        "EXAMPLE_SENTENCE": [
+            "The Covid-19 virus first infected a [person] in Wuhan.",
+            "Several [people] have been affected by the virus."
+         ]
+    },
+
+
+
+
+
+
+
+    {
+        "EVENT_NAME": "spread",
+        "ARGUMENT_ROLE": "Person",
+        "ROLE_DESCRIPTION": "The group of people or people that the infection has spread to",
+        "EXAMPLE_SENTENCE": [
+            "The virus has spread to the entire [population].",
+            "I got the virus from my [friend] who I visited over vacation.",
+            "The virus has infected 30% of the [community]."
+        ]
+    },
+    {
+        "EVENT_NAME": "spread",
+        "ARGUMENT_ROLE": "Agent",
+        "ROLE_DESCRIPTION": "The entity causing the spread of the disease",
+        "EXAMPLE_SENTENCE": [
+            "The [disease] spreads rapidly among children.",
+            "The [infection] has reached every continent.",
+            "The [virus] is airborne, making it easy to spread."
+        ]
+    },
+    {
+        "EVENT_NAME": "spread",
+        "ARGUMENT_ROLE": "Location",
+        "ROLE_DESCRIPTION": "The place where the disease is spreading",
+        "EXAMPLE_SENTENCE": [
+            "The virus is spreading across the [Los Angeles city]",
+            "Outbreaks are occurring in multiple [regions].",
+            "The spread of the disease has been rapid in [urban areas]."
+        ]
+    },
+    {
+        "EVENT_NAME": "spread",
+        "ARGUMENT_ROLE": "Time",
+        "ROLE_DESCRIPTION": "The time period over which the disease is spreading",
+        "EXAMPLE_SENTENCE": [
+            "The virus spread rapidly over a short [period].",
+            "In just a few [days], the infection rate doubled.",
+            "The disease has been spreading for several [months]."
+        ]
+    },
+    {
+        "EVENT_NAME": "spread",
+        "ARGUMENT_ROLE": "Method",
+        "ROLE_DESCRIPTION": "The means by which the disease spreads",
+        "EXAMPLE_SENTENCE": [
+            "The virus spreads through [airborne transmission].",
+            "Contaminated surfaces are a common [method] of spreading the disease.",
+            "Close contact with infected individuals is the main [way] the virus spreads."
+        ]
+    },
+
+    
+
+
+
+
+    {
+        "EVENT_NAME": "symptom",
+        "ARGUMENT_ROLE": "Indicator",
+        "ROLE_DESCRIPTION": "The specific physiological feature indicating the disease",
+        "EXAMPLE_SENTENCE": [
+            "I have a [fever].",
+            "He is experiencing severe [headaches].",
+            "Common [symptoms] include coughing and sneezing."
+        ]
+    },
+    {
+        "EVENT_NAME": "symptom",
+        "ARGUMENT_ROLE": "Person",
+        "ROLE_DESCRIPTION": "The individual displaying the symptom",
+        "EXAMPLE_SENTENCE": [
+            "The [patient] reported feeling dizzy.",
+            "[She] has been showing symptoms of the flu.",
+            "Several [people] have developed a rash."
+        ]
+    },
+    {
+        "EVENT_NAME": "symptom",
+        "ARGUMENT_ROLE": "Duration",
+        "ROLE_DESCRIPTION": "The length of time the symptom is experienced",
+        "EXAMPLE_SENTENCE": [
+            "The fever lasted for [three days].",
+            "He has been coughing for over a [week].",
+            "The symptoms persisted for a [month]."
+        ]
+    },
+
+
+
+
+    {
+        "EVENT_NAME": "prevent",
+        "ARGUMENT_ROLE": "Agent",
+        "ROLE_DESCRIPTION": "The entity trying to prevent the infection",
+        "EXAMPLE_SENTENCE": [
+            "[Health officials] are working to prevent the outbreak.",
+            "[Vaccines] help prevent disease spread.",
+            "[People] are taking measures to prevent infection."
+        ]
+    },
+    {
+        "EVENT_NAME": "prevent",
+        "ARGUMENT_ROLE": "Method",
+        "ROLE_DESCRIPTION": "The means used to prevent the infection",
+        "EXAMPLE_SENTENCE": [
+            "Wearing masks is an effective [prevention strategy].",
+            "[Handwashing] can prevent the spread of germs.",
+            "[Social distancing] is a way to prevent infection."
+        ]
+    },
+    {
+        "EVENT_NAME": "prevent",
+        "ARGUMENT_ROLE": "Target",
+        "ROLE_DESCRIPTION": "The disease or condition being prevented",
+        "EXAMPLE_SENTENCE": [
+            "Vaccines are designed to prevent [measles].",
+            "Efforts are being made to prevent the [flu].",
+            "Measures are in place to  prevent [COVID-19]."
+        ]
+    },
+
+
+
+
+
+
+    {
+        "EVENT_NAME": "control",
+        "ARGUMENT_ROLE": "Agent",
+        "ROLE_DESCRIPTION": "The entity making efforts to control the spread of the disease",
+        "EXAMPLE_SENTENCE": [
+            "The [government] is trying to control the pandemic.",
+            "[Healthcare workers] are working to control the spread.",
+            "[Communities] are taking steps to control infections."
+        ]
+    },
+    {
+        "EVENT_NAME": "control",
+        "ARGUMENT_ROLE": "Action",
+        "ROLE_DESCRIPTION": "The specific measure or action taken to control the spread",
+        "EXAMPLE_SENTENCE": [
+            "[Lockdowns] were implemented to control the virus.",
+            "[Vaccination] campaigns aim to  control the outbreak.",
+            "[Quarantine] measures help to control the spread."
+        ]
+    },
+    {
+        "EVENT_NAME": "control",
+        "ARGUMENT_ROLE": "Target",
+        "ROLE_DESCRIPTION": "The disease or infection being controlled",
+        "EXAMPLE_SENTENCE": [
+            "Efforts to control [COVID-19] are ongoing.",
+            "Strategies to control [malaria] are in place.",
+            "Measures are being taken to control the [flu]."
+        ]
+    },
+
+
+
+
+
+
+
+    {
+        "EVENT_NAME": "cure",
+        "ARGUMENT_ROLE": "Agent",
+        "ROLE_DESCRIPTION": "The entity providing the cure or treatment",
+        "EXAMPLE_SENTENCE": [
+            "[Doctors] are working to cure the patient.",
+            "Researchers are developing [treatments] to  cure the disease.",
+            "[Medications] can help cure infections."
+        ]
+    },
+    {
+        "EVENT_NAME": "cure",
+        "ARGUMENT_ROLE": "Patient",
+        "ROLE_DESCRIPTION": "The individual receiving the cure or treatment",
+        "EXAMPLE_SENTENCE": [
+            "The treatment helped cure the [patient].",
+            "[She] was cured after receiving medication.",
+            "Many [patients] that were ill recovered with proper care."
+        ]
+    },
+    {
+        "EVENT_NAME": "cure",
+        "ARGUMENT_ROLE": "Method",
+        "ROLE_DESCRIPTION": "The means or method used to achieve the cure",
+        "EXAMPLE_SENTENCE": [
+            "[Antibiotics] are used to cure bacterial infections.",
+            "[Surgery] can cure certain conditions.",
+            "[Therapies] aim to cure mental health issues."
+        ]
+    },
+
+
+
+
+
+
+    {
+        "EVENT_NAME": "death",
+        "ARGUMENT_ROLE": "Patient",
+        "ROLE_DESCRIPTION": "The individual who died",
+        "EXAMPLE_SENTENCE": [
+            "The virus claimed the life of the [patient].",
+            "Many [people] have died due to the pandemic.",
+            "The disease led to the death of [thousands]."
+        ]
+    },
+    {
+        "EVENT_NAME": "death",
+        "ARGUMENT_ROLE": "Cause",
+        "ROLE_DESCRIPTION": "The cause of death",
+        "EXAMPLE_SENTENCE": [
+            "[COVID-19] killed millions of people.",
+            "The [infection] resulted in numerous fatalities.",
+            "[Heart failure] was the cause of his death."
+        ]
+    },
+    {
+        "EVENT_NAME": "death",
+        "ARGUMENT_ROLE": "Time",
+        "ROLE_DESCRIPTION": "The time when the death occurred",
+        "EXAMPLE_SENTENCE": [
+            "He passed away last [night].",
+            "The deaths occurred over a short [period].",
+            "Many deaths were reported during the [pandemic]."
+        ]
+    },
+    {
+        "EVENT_NAME": "death",
+        "ARGUMENT_ROLE": "Location",
+        "ROLE_DESCRIPTION": "The placewhen the death occurred",
+        "EXAMPLE_SENTENCE": [
+            "The deaths occurred in [hospitals].",
+            "Many deaths were reported in [nursing homes]."
+        ]
+    }
+    
+
+    
+
+
+   
+]
